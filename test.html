@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    
+    <div class="bg-warning position-fixed w-100 fixed-top " style="height: 50px;"></div>
+
+     <div class="container">
+        <div class="row mt-5">
+            <div class="my-4">
+                <button class="btn btn-primary btn-sm">Click Me</button>
+                <button class="btn btn-secondary">Click Me</button>
+                <button class="btn btn-dark btn-lg">Click Me</button>
+                <button class="btn btn-outline-danger btn-lg">Click Me</button>
+            </div>
+
+            <div class="my-4">
+                <button class="btn btn-success disabled">Disable</button>
+                <button class="btn btn-danger active">Active</button>
+                <button class="btn btn-primary"><div class="spinner-border spinner-border-sm" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div> Loading</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="my-4">
+                <div class="alert alert-warning w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis veniam soluta officia ex possimus repellat corrupti voluptates? Amet, tenetur repellat.consectetur adipisicing elit. Quis veniam soluta officia ex possimus</div>
+            </div>
+
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+        </div>
+
+        <div class="row">
+            <div class="my-4 ">
+                <ul class="list-group w-25">
+                    <li class="list-group-item">Apple</li>
+                    <li class="list-group-item">Orange</li>
+                    <li class="list-group-item">Mango</li>
+                </ul>
+
+                <div class="list-group w-25 mt-4">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      The current link item
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                    <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+                  </div>
+                  </div>
+        </div>
+
+        <div class="row">
+            <div class="my-4 w-50">
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress mb-3">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="my-4">
+                <button type="button" class="btn btn-primary position-relative">
+                    Inbox
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      99+
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+            </div>
+        </div>
+
+     <div class="my-4 border border-3 p-3 w-50 d-flex justify-content-between align-items-baseline" style="height: 200px;">
+      <div class="border border-2 bg-danger text-white-50 me-3">This is flex-box</div>
+      <div class="border border-2 bg-danger text-white-50 me-3 align-self-center">This is flex-box</div>
+      <div class="border border-2 bg-danger text-white-50 align-self-end">This is flex-box</div>
+     </div>
+     </div>
+     
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
